@@ -1,1 +1,2 @@
-echo "hi there" | cat >> file.txt
+new-item filel.txt -itemtype file
+echo "this is a new file ">>filel.txt
