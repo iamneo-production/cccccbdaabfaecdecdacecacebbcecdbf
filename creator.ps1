@@ -7,12 +7,14 @@ for($i=1;$i -le 6 ; $i++){
         cd SubFolder1
         new-item test$i.txt -itemtype file
         chmod 777 test$i.txt
+        
         cd ..
     } 
     else{
         cd SubFolder2
         new-item test$i.txt -itemtype file
         chmod 777 test$i.txt
+
         cd ..
     } 
 }
